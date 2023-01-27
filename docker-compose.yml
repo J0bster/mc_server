@@ -9,7 +9,7 @@ services:
       OPS: "Jobster01"
       MOTD: "Welcome to the server!"
       DIFFICULTY: "hard"
-      SEED: "123456789"
+      SEED: "-2135836821937050197"
       VANILLATWEAKS_SHARECODE: x5whmK
     ports:
       - "25565:25565"
