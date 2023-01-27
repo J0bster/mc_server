@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    environment:
+      EULA: "true"
+      TYPE: "paper"
+      OPS: "Jobster01"
+      MOTD: "Welcome to the server!"
+      DIFFICULTY: "hard"
+      SEED: "123456789"
+      VANILLATWEAKS_SHARECODE: x5whmK
+    ports:
+      - "25565:25565"
+      - "24454:24454"
+      - "8123:8123"
+    volumes:
+      - ./data:/data
+      - ./plugins:/plugins
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+volumes:
+  data: {}
