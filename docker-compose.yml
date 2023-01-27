@@ -7,7 +7,7 @@ services:
       EULA: "true"
       TYPE: "paper"
       OPS: "Jobster01"
-      MOTD: "§2§l§nCreeper!§4§l aw§6 man"
+      MOTD: "§2§l§nCreeper!§4§l aw§6§l man"
       DIFFICULTY: "hard"
       SEED: "-2135836821937050197"
       VANILLATWEAKS_SHARECODE: x5whmK
