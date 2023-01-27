@@ -11,7 +11,7 @@ services:
       DIFFICULTY: "hard"
       SEED: "-2135836821937050197"
       VANILLATWEAKS_SHARECODE: x5whmK
-      MEMORY: 4G
+      MEMORY: 4000M
     ports:
       - "25565:25565"
       - "24454:24454/udp"
