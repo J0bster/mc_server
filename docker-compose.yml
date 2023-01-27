@@ -13,7 +13,7 @@ services:
       VANILLATWEAKS_SHARECODE: x5whmK
     ports:
       - "25565:25565"
-      - "24454:24454"
+      - "24454:24454/udp"
       - "8123:8123"
     volumes:
       - ./data:/data
